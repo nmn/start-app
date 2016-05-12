@@ -1,0 +1,58 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-react"],
+  "plugins": ["flow-vars"],
+  "parserOptions": {
+    ecmaVersion: 6,
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    },
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "commonjs": true,
+    "jasmine": true,
+    "protractor": true,
+    "jquery": true
+  },
+  "rules": {
+    "operator-linebreak": 0,
+    "no-multiple-empty-lines": 0,
+    "react/prop-types": 0,
+    "react/jsx-no-bind": 0,
+    "flow-vars/define-flow-type": 1,
+    "flow-vars/use-flow-type": 1,
+  },
+  "globals": {
+    "angular": false,
+    "$": false,
+    "jQuery": false,
+    "ReactClass": false,
+    "React$Element": false,
+    "ReactComponent": false,
+    "ReactElement": false,
+    "SyntheticEvent": false,
+    "SyntheticClipboardEvent": false,
+    "SyntheticCompositionEvent": false,
+    "SyntheticInputEvent": false,
+    "SyntheticUIEvent": false,
+    "SyntheticFocusEvent": false,
+    "SyntheticKeyboardEvent": false,
+    "SyntheticMouseEvent": false,
+    "SyntheticDragEvent": false,
+    "SyntheticWheelEvent": false,
+    "SyntheticTouchEvent": false,
+    "expect": false,
+    "describe": false,
+    "it": false,
+    "inject": false,
+    "module": false,
+    "beforeEach": false,
+    "afterEach": false,
+    "jest": false,
+    "graphql": false
+  }
+}
